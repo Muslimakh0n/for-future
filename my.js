@@ -26,3 +26,12 @@ const nissan = new Cars("r34" , "1998" , "bu ham koop" , "blue")
 console.log(bmw.iHave());
 console.log(bmw);
 console.log(nissan);
+
+const set = new Set();
+
+set.add(1);
+set.add('Lydia');
+set.add({ name: 'Lydia' });
+
+for (let item of set) {
+console.log(item + 2);}
