@@ -35,3 +35,5 @@ set.add({ name: 'Lydia' });
 
 for (let item of set) {
 console.log(item + 2);}
+
+
